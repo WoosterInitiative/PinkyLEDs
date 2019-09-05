@@ -33,5 +33,6 @@ Additional libraries which you will require are:
 Thanks to the original authors, DrZzs for additional effects, http://soliton.vm.bytemark.co.uk/pub/cpt-city/bhw/index.html for color palettes and anyone else I've missed!
 
 The example.yaml is provided as a guide if you choose not to use discovery
+The secrets-sample.h file contains private information the should *not* be uploaded to GitHub. Save-as to **secrets.h** and update information.
 
 [<a href="https://www.buymeacoffee.com/V3q9id4" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>](https://www.buymeacoffee.com/V3q9id4)

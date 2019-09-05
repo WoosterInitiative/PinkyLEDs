@@ -3,14 +3,6 @@
 #define USE_WHITE_BALANCE_FOR_SPEED // remove if you do not want to use Home Assistant's built in white balance slider for animation speed
 #define ENABLE_E131 // remove if you do not want to use E1.31
 
-#define wifi_ssid "yourSSID" // your WIFI SSID
-#define wifi_password "yourWiFiPassword" // your WIFI Password
-
-#define mqtt_server "IP_Address" // your MQTT broker address or IP.
-#define mqtt_user "MQTT_USER" //enter your MQTT username
-#define mqtt_password "MQTTPASSWORD" //enter your MQTT password
-#define mqtt_group_topic "cmnd/PinkyLEDs" // MQTT group topic to allow controlling multiple controllers with a single mqtt command
-
 #define DATA_PIN    D5 // the pin the LEDs are connected to. (on NodeMCU 1.0, FastLED will default to the D5 pin after throwing an error during compiling.)
 #define LED_TYPE    WS2812 // your LED type WS2812 / WS2811
 #define COLOR_ORDER GRB // your color order (normally: RGB for WS2811 | GRB for WS2812)
